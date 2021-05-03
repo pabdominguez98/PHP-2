@@ -30,6 +30,19 @@ function es_numero_primo($numero)
     }
 }
 
+// tambien agrego llamado a la funcion desde aca
+
+$numero = readline("Ingrese un numero para verificar: ");
+
+if(es_numero_primo($numero) == 1){
+    echo "\nEl numero ingresado es un numero primo";
+
+}else{
+
+    echo "\nEl numero ingresado NO es un numero primo";
+
+}
+
 
 
 

@@ -12,7 +12,7 @@ while($numero == 1){
     if($ingreso == -1){
         $numero = 0;
     }
-
+    
 }
 
 echo "\nLa suma de los numeros ingresados es $suma\nPrograma finalizado.\n";
